@@ -1,1 +1,7 @@
 *~
+*.aux
+*.log
+*.pdf
+*.toc
+*.xdv
+_*
