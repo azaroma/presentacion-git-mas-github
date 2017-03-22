@@ -1,29 +1,32 @@
 \documentclass{beamer}
+\usepackage{xcolor}
 \usepackage{polyglossia}
 \setmainlanguage{spanish}
 \setmainfont
-  [Ligatures=TeX, % recommended
-   UprightFont={*},
-   ItalicFont={* Italic},
-   BoldFont={* Bold},
-   BoldItalicFont={* Bold Italic}]
-   {Fira Sans}
-\setsansfont
-  [Ligatures=TeX, % recommended
-   UprightFont={*},
-   ItalicFont={* Italic},
-   BoldFont={* Bold},
-   BoldItalicFont={* Bold Italic}]
-   {Fira Sans}
-\setmonofont{Fira Mono}
-\newfontfamily{\FiraTitle}
 [Ligatures=TeX, % recommended
-   UprightFont={* Heavy},
-   BoldFont={* Ultra}]
-   {Fira Sans}
+UprightFont={*},
+ItalicFont={* Italic},
+BoldFont={* Bold},
+BoldItalicFont={* Bold Italic}]
+{Fira Sans}
+\setsansfont
+[Ligatures=TeX, % recommended
+UprightFont={*},
+ItalicFont={* Italic},
+BoldFont={* Bold},
+BoldItalicFont={* Bold Italic}]
+{Fira Sans}
+\setmonofont{Fira Mono}
+\newfontfamily\FiraTitle
+[Ligatures=TeX, % recommended
+UprightFont={* Heavy},
+BoldFont={* Ultra}]
+{Fira Sans}
+\definecolor{green}{HTML}{4BCDAD}
+\definecolor{purple}{HTML}{F173AE}
 
-\title{Git + Github \\ \Large{De 0 a 100 en una clase}}
-\author{Mario Alejandro Gil Lázaro}
+\title{\resizebox{\columnwidth}{!}{{\FiraTitle \textbf{\texorpdfstring{\textcolor{black}{Git}}{Git} \texorpdfstring{\color{green}{+}}{+} \texorpdfstring{\textcolor{purple}{Github}}{Github}}}} \\ \resizebox{0.5\columnwidth}{!}{\FiraTitle \texorpdfstring{\textcolor{black}{De 0 a 100 en una clase}}{De 0 a 100 en una clase}}}
+\author{{\FiraTitle \texorpdfstring{\textcolor{black}{Mario Alejandro Gil Lázaro}}{Mario Alejandro Gil Lázaro}}}
 
 \begin{document}
 
