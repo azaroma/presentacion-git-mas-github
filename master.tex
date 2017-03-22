@@ -1,14 +1,34 @@
 \documentclass{beamer}
 \usepackage{polyglossia}
 \setmainlanguage{spanish}
-\setmainfont{Fira Sans}
-\setsansfont{Fira Sans}
+\setmainfont
+  [Ligatures=TeX, % recommended
+   UprightFont={*},
+   ItalicFont={* Italic},
+   BoldFont={* Bold},
+   BoldItalicFont={* Bold Italic}]
+   {Fira Sans}
+\setsansfont
+  [Ligatures=TeX, % recommended
+   UprightFont={*},
+   ItalicFont={* Italic},
+   BoldFont={* Bold},
+   BoldItalicFont={* Bold Italic}]
+   {Fira Sans}
 \setmonofont{Fira Mono}
+\newfontfamily{\FiraTitle}
+[Ligatures=TeX, % recommended
+   UprightFont={* Heavy},
+   BoldFont={* Ultra}]
+   {Fira Sans}
 
 \title{Git + Github \\ \Large{De 0 a 100 en una clase}}
 \author{Mario Alejandro Gil Lázaro}
 
 \begin{document}
+
+\frame{\titlepage}
+
 \section{Introducción: Sistemas de Control de Versiones}
 \section{Git}
 \subsection{Repositorio}
