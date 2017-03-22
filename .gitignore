@@ -4,4 +4,7 @@
 *.pdf
 *.toc
 *.xdv
+*.nav
+*.out
+*.snm
 _*
