@@ -25,6 +25,7 @@ BoldFont={* Ultra}]
 {Fira Sans}
 \definecolor{green}{HTML}{4BCDAD}
 \definecolor{purple}{HTML}{2F018D}
+\newcommand\crule[3][black]{\textcolor{#1}{\rule{#2}{#3}}}
 
 \title{\resizebox{\columnwidth}{!}{{\FiraTitle \textbf{\texorpdfstring{\textcolor{black}{Git}}{Git} \texorpdfstring{\color{green}{+}}{+} \texorpdfstring{\textcolor{purple}{Github}}{Github}}}}}
 \subtitle{\resizebox{0.5\columnwidth}{!}{\FiraTitle \texorpdfstring{\textcolor{black}{De 0 a 100 en una clase}}{De 0 a 100 en una clase}}}
@@ -211,7 +212,21 @@ Estructura de datos que almacena metadatos y/o un sistema de archivos.
 \end{frame}
 
 \begin{frame}
-\frametitle{Push}
+  \begin{columns}
+    \column{0.5\textwidth}
+    \resizebox{\textwidth}{!}{\FiraTitle \color{green}{Push}}
+    \column{0.5\textwidth}
+    \vspace{1em}
+    
+    {\FiraTitle \lstinline|git push <remote> <branch>|}
+
+    {\FiraTitle \lstinline|git push <remote> --all|}
+
+    {\FiraTitle \color{red}{\lstinline|git push <remote> --force|}}
+  \end{columns}
+  \vspace{2em}
+
+  \crule[green]{1.2\textwidth}{3em}
 \end{frame}
 
 \begin{frame}
