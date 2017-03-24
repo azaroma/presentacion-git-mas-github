@@ -21,3 +21,6 @@ Algunos de los metadatos que el repositorio almacena son, entre otros:
 ## Inspección
 `git log` permite ver la historia de commits de un repositorio.
 `git status` muestra el estado del directorio en uso y el área de staging. Muestra los cambios que están en el área de staging y los que no están ahí, y cuuales archivos no están siendo rastreados por git.
+
+## git add
+Git add es un comando multipropósito porque sirve para rastrear nuevos archivos o para enviar al área de staging archivos que han sido modificados (sin importar si están o no en el área de staging).
