@@ -24,3 +24,6 @@ Algunos de los metadatos que el repositorio almacena son, entre otros:
 
 ## git add
 Git add es un comando multipropósito porque sirve para rastrear nuevos archivos o para enviar al área de staging archivos que han sido modificados (sin importar si están o no en el área de staging).
+
+## .gitignore
+Hay veces que nuestro sistema genera archivos que no queremos que sean añadidos a nuestro repositorio, para eso contamos con la herramienta `.gitignore`; que es un archivo que mediante glob patterns le indica a git qué tipo de archivos debe ignorar.
