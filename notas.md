@@ -27,3 +27,6 @@ Git add es un comando multipropósito porque sirve para rastrear nuevos archivos
 
 ## .gitignore
 Hay veces que nuestro sistema genera archivos que no queremos que sean añadidos a nuestro repositorio, para eso contamos con la herramienta `.gitignore`; que es un archivo que mediante glob patterns le indica a git qué tipo de archivos debe ignorar.
+
+## git commit
+Una vez que tu staging area está como tú quieres, puedes hacer un commit. Pensemos en un commit como en un snapshot o un checkpoint, un estado determinado de nuestro proyecto que quisieramos recordar. Este es un nodo en la historia de cambios de nuestro proyecto.
