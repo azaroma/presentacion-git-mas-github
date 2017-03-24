@@ -46,3 +46,6 @@ El 90% del trabajo ocurre en los repositorios locales. Como ya dijimos, un repos
 ## remote add y clone
 El comando `git remote add <nombre> <url>` añade un repositorio remoto.
 El comando `git clone <url>` crea una copia de un repositorio remoto, lo establece como repositorio remoto y hace que la rama `master` local este sincronizada con la rama `<remoto>/master`.
+
+## Push y Fetch
+El uso de `git fetch <remote>` es más adecuado para cuando se quiere revisar el trabajo del remote sin verse obligado a incorporar los posibles cambios a nuestro trabajo. `git pull <remote>` se utiliza cuando se quiere incorporar los cambios del upstream a nuestro trabajo local.
