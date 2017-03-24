@@ -40,3 +40,5 @@ Es posible fusionar dos líneas del tiempo separadas; el comando que lo permite 
 ## Github
 Github es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Su función más importante es la de servidor remoto para permitir el flujo de trabajo distribuido, es decir, Github alojará un repositorio remoto para nuestro proyecto. Además proporciona un wiki, una página y métricas de colaboración para cada proyecto. También proporciona rastreo de bugs, petición de características y administración de tareas.
 
+## Repositorio remoto
+El 90% del trabajo ocurre en los repositorios locales. Como ya dijimos, un repositorio remoto nos permite trabajar en colaboración con otros desarrolladores aunque estemos en distintas partes del planeta. Un repositorio remoto de Github se distingue de uno local porque no tiene los archivos como tal, únicamente contiene el directorio `.git`; esto es así porque el repositorio remoto sólo sirve para recibir y distribuir cambios, no para trabajar sobre sus archivos.
