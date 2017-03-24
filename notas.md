@@ -18,3 +18,6 @@ Algunos de los metadatos que el repositorio almacena son, entre otros:
 * Un conjunto de objetos _commit_
 * Una serie de referencias a objetos _commit_, llamadas _heads_ 
 
+## Inspección
+`git log` permite ver la historia de commits de un repositorio.
+`git status` muestra el estado del directorio en uso y el área de staging. Muestra los cambios que están en el área de staging y los que no están ahí, y cuuales archivos no están siendo rastreados por git.
