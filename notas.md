@@ -36,3 +36,7 @@ La historia de cambios de nuestro repositorio es una línea del tiempo seccionad
 
 ## Merging
 Es posible fusionar dos líneas del tiempo separadas; el comando que lo permite es `git merge <incoming-branch>`. Para hacerlo es necesario hacer un `checkout`de la rama a la que queremos traer la rama objetivo. Este mecanismo utiliza el mejor ancestro común de los últimos `commits` y dichos `commits` para crear un nuevo `commit` común a partir del cual ambas ramas comparten el contenido.
+
+## Github
+Github es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Su función más importante es la de servidor remoto para permitir el flujo de trabajo distribuido, es decir, Github alojará un repositorio remoto para nuestro proyecto. Además proporciona un wiki, una página y métricas de colaboración para cada proyecto. También proporciona rastreo de bugs, petición de características y administración de tareas.
+
