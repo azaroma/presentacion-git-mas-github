@@ -30,3 +30,9 @@ Hay veces que nuestro sistema genera archivos que no queremos que sean añadidos
 
 ## git commit
 Una vez que tu staging area está como tú quieres, puedes hacer un commit. Pensemos en un commit como en un snapshot o un checkpoint, un estado determinado de nuestro proyecto que quisieramos recordar. Este es un nodo en la historia de cambios de nuestro proyecto.
+
+## Branching
+La historia de cambios de nuestro repositorio es una línea del tiempo seccionada en nodos (commits), que son referencias a un estado específico de nuestros archivos. Las ramas son bifurcaciones de esa línea del tiempo, con un sistema de archivos independiente.
+
+## Merging
+Es posible fusionar dos líneas del tiempo separadas; el comando que lo permite es `git merge <incoming-branch>`. Para hacerlo es necesario hacer un `checkout`de la rama a la que queremos traer la rama objetivo. Este mecanismo utiliza el mejor ancestro común de los últimos `commits` y dichos `commits` para crear un nuevo `commit` común a partir del cual ambas ramas comparten el contenido.
