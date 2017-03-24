@@ -42,3 +42,7 @@ Github es una plataforma de desarrollo colaborativo para alojar proyectos utiliz
 
 ## Repositorio remoto
 El 90% del trabajo ocurre en los repositorios locales. Como ya dijimos, un repositorio remoto nos permite trabajar en colaboración con otros desarrolladores aunque estemos en distintas partes del planeta. Un repositorio remoto de Github se distingue de uno local porque no tiene los archivos como tal, únicamente contiene el directorio `.git`; esto es así porque el repositorio remoto sólo sirve para recibir y distribuir cambios, no para trabajar sobre sus archivos.
+
+## remote add y clone
+El comando `git remote add <nombre> <url>` añade un repositorio remoto.
+El comando `git clone <url>` crea una copia de un repositorio remoto, lo establece como repositorio remoto y hace que la rama `master` local este sincronizada con la rama `<remoto>/master`.
