@@ -93,12 +93,31 @@ BoldFont={* Ultra}]
 \end{frame}
 
 \begin{frame}
-  \frametitle{git add}
+  \begin{center}
+    \resizebox{0.5\textwidth}{!}{\FiraTitle%
+      \textcolor{black}{Ciclo de vida de un archivo}}
+  \end{center}
   \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{ciclo}
     \caption{Ciclo de vida de los archivos en git}
   \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{columns}
+    \column{0.5\textwidth}
+    \resizebox{\textwidth}{!}{\FiraTitle \textcolor{purple}{Add}}
+    \vspace{1em}
+    \crule[purple]{\textwidth}{3em}
+    \column{0.5\textwidth}
+    \resizebox{\textwidth}{!}{%
+      \FiraTitle \lstinline|git add archivo.txt|}
+    \resizebox{0.8\textwidth}{!}{%
+      \FiraTitle \lstinline|git add --all|}
+    \resizebox{0.5\textwidth}{!}{%
+      \FiraTitle \lstinline|git add .|}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
